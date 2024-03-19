@@ -9571,8 +9571,3 @@ ul.navbar-nav li.nav-item:hover a.nav-link::before {
 .cr-footer ul li::after {
   color: #fff;
 }
-
-
-.cr-banner h2 {
-  font-family: 'Gibson 2019', sans-serif;
-}
