@@ -1,5 +1,9 @@
 import React from "react";
 
+import productBannerImage1 from "../assets/img/product/1.jpg";
+import productBannerImage2 from "../assets/img/product/9.jpg";
+import productBannerImage3 from "../assets/img/product/3.jpg";
+
 const Productbanner = () => {
   return (
     <>
@@ -16,10 +20,7 @@ const Productbanner = () => {
                     data-aos-duration={2000}
                   >
                     <div className="cr-product-banner-image">
-                      <img
-                        src="../../assets/img/product-banner/1.jpg"
-                        alt="product-banner"
-                      />
+                      <img src={productBannerImage1} alt="product-banner" />
                       <div className="cr-product-banner-contain">
                         <h5>
                           Healthy <br /> Bakery Products
@@ -45,10 +46,7 @@ const Productbanner = () => {
                     data-aos-duration={2000}
                   >
                     <div className="cr-product-banner-image">
-                      <img
-                        src="../../assets/img/product-banner/2.jpg"
-                        alt="product-banner"
-                      />
+                      <img src={productBannerImage2} alt="product-banner" />
                       <div className="cr-product-banner-contain">
                         <h5>
                           Fresh <br />
@@ -75,10 +73,7 @@ const Productbanner = () => {
                     data-aos-duration={2000}
                   >
                     <div className="cr-product-banner-image">
-                      <img
-                        src="../../assets/img/product-banner/3.jpg"
-                        alt="product-banner"
-                      />
+                      <img src={productBannerImage3} alt="product-banner" />
                       <div className="cr-product-banner-contain">
                         <h5>
                           Fresh &amp; healthy <br /> Organic Fruits

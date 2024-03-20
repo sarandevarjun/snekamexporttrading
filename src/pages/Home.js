@@ -1,13 +1,12 @@
 import React from "react";
 import Slider from "../components/Slider";
-import Breadcrumbs from "../components/Breadcrumbs";
+//import Breadcrumbs from "../components/Breadcrumbs";
 import CategoriesSection from "../components/CategoriesSection";
-// import Category from "../products/Category";
 import Popularproducts from "../products/Popularproducts";
-// import Productbanner from "../products/Productbanner";
-// import Services from "./Services";
-// import Deal from "./Deal";
-// import Blog from "./Blog";
+import Productbanner from "../products/Productbanner";
+import Services from "./Services";
+//import Deal from "./Deal";
+import Blog from "./Blog";
 
 const Home = () => {
   return (
@@ -15,13 +14,13 @@ const Home = () => {
       <Slider />
       <CategoriesSection />
       <Popularproducts />
-      {/*<Category />
-       
       <Productbanner />
+
       <Services />
-      <Deal />
+      <Blog />
+      {/*<Deal />
       <Testimonial />
-      <Blog /> */}
+      */}
     </>
   );
 };

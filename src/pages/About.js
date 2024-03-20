@@ -1,5 +1,7 @@
 import React from "react";
 import Services from "../components/Services";
+import Productbanner from "../products/Productbanner";
+import Blog from "./Blog";
 import aboutBannerImage from "../assets/img/about/about-us-banner.jpg";
 const About = () => {
   return (
@@ -101,7 +103,9 @@ const About = () => {
           </div>
         </div>
       </section>
+      <Productbanner />
       <Services />
+      <Blog />
     </>
   );
 };
