@@ -3,7 +3,7 @@ import Slider from "../components/Slider";
 import Breadcrumbs from "../components/Breadcrumbs";
 import CategoriesSection from "../components/CategoriesSection";
 // import Category from "../products/Category";
-// import Popularproducts from "../products/Popularproducts";
+import Popularproducts from "../products/Popularproducts";
 // import Productbanner from "../products/Productbanner";
 // import Services from "./Services";
 // import Deal from "./Deal";
@@ -14,8 +14,9 @@ const Home = () => {
     <>
       <Slider />
       <CategoriesSection />
+      <Popularproducts />
       {/*<Category />
-       <Popularproducts />
+       
       <Productbanner />
       <Services />
       <Deal />

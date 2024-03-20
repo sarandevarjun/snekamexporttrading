@@ -1,5 +1,17 @@
 import React from "react";
 
+//Cateogories Image
+import categoryImage1 from "../assets/img/categories/1.jpg";
+import categoryImage2 from "../assets/img/categories/2.jpg";
+import categoryImage3 from "../assets/img/categories/3.jpg";
+import categoryImage4 from "../assets/img/categories/4.jpg";
+import categoryImage5 from "../assets/img/categories/5.jpg";
+import categoryImage6 from "../assets/img/categories/6.jpg";
+import categoryImage7 from "../assets/img/categories/7.jpg";
+import categoryImage8 from "../assets/img/categories/8.jpg";
+import categoryImage9 from "../assets/img/categories/9.jpg";
+import categoryImage10 from "../assets/img/categories/10.jpg";
+
 const CategoriesSection = () => {
   return (
     <section className="section-categories padding-b-100">
@@ -112,10 +124,7 @@ const CategoriesSection = () => {
                           </a>
                         </div>
                       </div>
-                      <img
-                        src="assets/img/categories/3.jpg"
-                        alt="categories-3"
-                      />
+                      <img src={categoryImage3} alt="categories-3" />
                     </div>
                   </div>
                   <div className="col-6 cr-categories-box mb-24">
@@ -142,10 +151,7 @@ const CategoriesSection = () => {
                           </a>
                         </div>
                       </div>
-                      <img
-                        src="assets/img/categories/4.jpg"
-                        alt="categories-4"
-                      />
+                      <img src={categoryImage4} alt="categories-4" />
                     </div>
                   </div>
                 </div>
@@ -181,10 +187,7 @@ const CategoriesSection = () => {
                           </a>
                         </div>
                       </div>
-                      <img
-                        src="assets/img/categories/1.jpg"
-                        alt="categories-1"
-                      />
+                      <img src={categoryImage1} alt="categories-1" />
                     </div>
                   </div>
                   <div className="col-6 cr-categories-box">
@@ -211,10 +214,7 @@ const CategoriesSection = () => {
                           </a>
                         </div>
                       </div>
-                      <img
-                        src="assets/img/categories/2.jpg"
-                        alt="categories-2"
-                      />
+                      <img src={categoryImage2} alt="categories-2" />
                     </div>
                   </div>
                 </div>
@@ -250,10 +250,7 @@ const CategoriesSection = () => {
                           </a>
                         </div>
                       </div>
-                      <img
-                        src="assets/img/categories/5.jpg"
-                        alt="categories-5"
-                      />
+                      <img src={categoryImage5} alt="categories-5" />
                     </div>
                   </div>
                   <div className="col-6 cr-categories-box mb-24">
@@ -280,10 +277,7 @@ const CategoriesSection = () => {
                           </a>
                         </div>
                       </div>
-                      <img
-                        src="assets/img/categories/6.jpg"
-                        alt="categories-6"
-                      />
+                      <img src={categoryImage6} alt="categories-6" />
                     </div>
                   </div>
                 </div>
@@ -319,10 +313,7 @@ const CategoriesSection = () => {
                           </a>
                         </div>
                       </div>
-                      <img
-                        src="assets/img/categories/7.jpg"
-                        alt="categories-7"
-                      />
+                      <img src={categoryImage7} alt="categories-7" />
                     </div>
                   </div>
                   <div className="col-6 cr-categories-box mb-24">
@@ -349,10 +340,7 @@ const CategoriesSection = () => {
                           </a>
                         </div>
                       </div>
-                      <img
-                        src="assets/img/categories/8.jpg"
-                        alt="categories-8"
-                      />
+                      <img src={categoryImage8} alt="categories-8" />
                     </div>
                   </div>
                 </div>
@@ -388,10 +376,7 @@ const CategoriesSection = () => {
                           </a>
                         </div>
                       </div>
-                      <img
-                        src="assets/img/categories/9.jpg"
-                        alt="categories-9"
-                      />
+                      <img src={categoryImage9} alt="categories-9" />
                     </div>
                   </div>
                   <div className="col-6 cr-categories-box mb-24">
@@ -418,10 +403,7 @@ const CategoriesSection = () => {
                           </a>
                         </div>
                       </div>
-                      <img
-                        src="assets/img/categories/10.jpg"
-                        alt="categories-10"
-                      />
+                      <img src={categoryImage10} alt="categories-10" />
                     </div>
                   </div>
                 </div>

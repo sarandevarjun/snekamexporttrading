@@ -2366,12 +2366,14 @@ ul.navbar-nav .dropdown:hover .dropdown-menu {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-image: url("../../assets//img/banner/banana-leaf-banner.jpg");
 }
 
 .cr-banner-image-two {
   width: 100%;
   /*background-image: url("../img/banner/banner-2.jpg");*/
   background-repeat: no-repeat;
+  background-image: url("../../assets//img/banner/ship-banner.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -9570,4 +9572,15 @@ ul.navbar-nav li.nav-item:hover a.nav-link::before {
 
 .cr-footer ul li::after {
   color: #fff;
+}
+
+.cr-categories ul.nav-tabs li.nav-item {
+  background-color: #3e3582;
+  border: 1px solid #3e3582;
+}
+.center-categories-inner span {
+  color: #fff;
+}
+.cr-categories ul.nav-tabs li.nav-item .nav-link {
+  color: #fac917;
 }
