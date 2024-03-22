@@ -9635,3 +9635,45 @@ ul.navbar-nav li.nav-item:hover a.nav-link::before {
 .cr-shop-bredekamp .center-content span {
   color: #fff;
 }
+
+ul.navbar-nav li.nav-item a.nav-link {
+    color: #fff !important;
+    font-family: "Poppins, sans-serif";
+    font-size: 14px;
+    font-weight: 500;
+    padding: 11px 8px;
+    position: relative;
+    z-index: 1;
+}
+
+header {
+  background-color: #3e3582;
+  border-bottom: 1px solid #fac917;
+  height: 142px;
+}
+
+.top-header .cr-right-bar .cr-right-bar-item span {
+  color: #fff;
+}
+
+.ri-heart-3-line:before {
+  content: "\ee0b";
+  color: #fff;
+}
+
+.ri-shopping-cart-line:before {
+  content: "\f120";
+  color: #fff;
+}
+
+.cr-menu-list .cr-calling a {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+}
+
+
+.ri-phone-line:before {
+  content: "\efec";
+  color: #fff;
+}

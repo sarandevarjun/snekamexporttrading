@@ -1,4 +1,5 @@
 import React from "react";
+import Contactform from "./Contactform";
 
 const Contact = () => {
   return (
@@ -137,41 +138,7 @@ const Contact = () => {
               data-aos-duration={2000}
               data-aos-delay={800}
             >
-              <form className="cr-content-form">
-                <div className="form-group">
-                  <input
-                    type="text"
-                    placeholder="Full Name"
-                    className="cr-form-control"
-                  />
-                </div>
-                <div className="form-group">
-                  <input
-                    type="email"
-                    placeholder="Email"
-                    className="cr-form-control"
-                  />
-                </div>
-                <div className="form-group">
-                  <input
-                    type="text"
-                    placeholder="Phone"
-                    className="cr-form-control"
-                  />
-                </div>
-                <div className="form-group">
-                  <textarea
-                    className="cr-form-control"
-                    id="exampleFormControlTextarea1"
-                    rows={4}
-                    placeholder="Message"
-                    defaultValue={""}
-                  />
-                </div>
-                <button type="button" className="cr-button">
-                  Submit
-                </button>
-              </form>
+              <Contactform />
             </div>
           </div>
         </div>
