@@ -128,7 +128,7 @@ const Contact = () => {
               data-aos-delay={400}
             >
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15555.283156372366!2d78.07228913510356!3d9.986765199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b009cb79e9ff6e5%3A0x5fa9a73cf36d6e08!2sSneham%20Export%20Trading!5e0!3m2!1sen!2sin!4v1647592468922!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15722.483145737893!2d78.1136683!3d9.8821472!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c5585335aaab%3A0xc1d7960dccfb3dd9!2sSneham%20Export%20Trading!5e0!3m2!1sen!2sin!4v1711179302023!5m2!1sen!2sin"
                 title="maps"
               ></iframe>
             </div>
