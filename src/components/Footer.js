@@ -31,7 +31,7 @@ const Footer = () => {
                     </a>
                   </li>
                   <li className="phone-icon">
-                    <a href="javascript:void(0)"> +91 6384946793</a>
+                    <a href="tel:+91 6384946793"> +91 6384946793</a>
                   </li>
                 </ul>
               </div>
@@ -44,22 +44,22 @@ const Footer = () => {
                 </h4>
                 <ul className="cr-footer-links cr-footer-dropdown">
                   <li>
-                    <a href="about.html">About Us</a>
+                    <a href="/about">About Us</a>
                   </li>
                   <li>
-                    <a href="track-order.html">Delivery Information</a>
+                    <a href="/">Delivery Information</a>
                   </li>
                   <li>
-                    <a href="policy.html">Privacy Policy</a>
+                    <a href="/">Privacy Policy</a>
                   </li>
                   <li>
-                    <a href="terms.html">Terms &amp; Conditions</a>
+                    <a href="/">Terms &amp; Conditions</a>
                   </li>
                   <li>
-                    <a href="contact-us.html">contact Us</a>
+                    <a href="/contact">contact Us</a>
                   </li>
                   <li>
-                    <a href="faq.html">Support Center</a>
+                    <a href="/">Support Center</a>
                   </li>
                 </ul>
               </div>
@@ -72,22 +72,16 @@ const Footer = () => {
                 </h4>
                 <ul className="cr-footer-links cr-footer-dropdown">
                   <li>
-                    <a href="shop-left-sidebar.html">Dairy &amp; Bakery</a>
+                    <a href="/products">Papad / Appalam</a>
                   </li>
                   <li>
-                    <a href="shop-left-sidebar.html">Fruits &amp; Vegetable</a>
+                    <a href="/products">Peanut candies / Chikki</a>
                   </li>
                   <li>
-                    <a href="shop-left-sidebar.html">Snack &amp; Spice</a>
+                    <a href="/products">Banana leaves</a>
                   </li>
                   <li>
-                    <a href="shop-left-sidebar.html">Juice &amp; Drinks</a>
-                  </li>
-                  <li>
-                    <a href="shop-left-sidebar.html">Chicken &amp; Meat</a>
-                  </li>
-                  <li>
-                    <a href="shop-left-sidebar.html">Fast Food</a>
+                    <a href="/products">Vaththal & &amp; Vadaham</a>
                   </li>
                 </ul>
               </div>
@@ -123,7 +117,7 @@ const Footer = () => {
                   </span>
                   <span>
                     <a href="javascript:void(0)">
-                      <i className="ri-dribbble-line" />
+                      <i className="ri-youtube-line" />
                     </a>
                   </span>
                   <span>

@@ -16,8 +16,7 @@ const Contactform = () => {
       )
       .then(
         (result) => {
-          alert("Message Sent Successfully");
-          console.log(result.text);
+          console.log(result.text, ":: Message Sent Successfully");
         },
         (error) => {
           console.log(error.text);
@@ -26,6 +25,12 @@ const Contactform = () => {
   };
   return (
     <>
+      <h2>Feel free to contact us</h2>
+      <p>
+        Our Team is happy to answer your Questions. Fill out the form, and we’ll
+        be in touch as soon as Possible.
+      </p>
+
       <form className="cr-content-form" onSubmit={handleSubmit} ref={form}>
         <div className="form-group">
           <input

@@ -2366,14 +2366,23 @@ ul.navbar-nav .dropdown:hover .dropdown-menu {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url("../../assets//img/banner/banana-leaf-banner.jpg");
+  /*background-image: url("../../assets/img/banner/banana-leaf-banner.jpg");*/
+  background-image: url("../../assets/img/product/banana-banner.JPG");
 }
 
 .cr-banner-image-two {
   width: 100%;
   /*background-image: url("../img/banner/banner-2.jpg");*/
   background-repeat: no-repeat;
-  background-image: url("../../assets//img/banner/ship-banner.jpg");
+  background-image: url("../../assets/img/banner/ship-banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cr-banner-image-three {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/img/product/peanut-banner.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -9676,4 +9685,8 @@ header {
 .ri-phone-line:before {
   content: "\efec";
   color: #fff;
+}
+
+.cr-last-footer p a {
+  color: #fac917 !important;
 }
