@@ -16,10 +16,10 @@ const Slider = () => {
                         <h5>
                           <span>100%</span> Organic Products
                         </h5>
-                        <h1>Explore fresh &amp; products.</h1>
+                        <h1>Welcome To Sneham Export Trading</h1>
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Amet reiciendis beatae consequuntur.
+                          Sneham export trading is India’s leading export
+                          trading company.
                         </p>
                         <div className="cr-last-buttons">
                           <a href="/products" className="cr-button">
