@@ -9655,7 +9655,7 @@ ul.navbar-nav li.nav-item a.nav-link {
     z-index: 1;
 }
 
-header {
+/* header {
   background-color: #3e3582;
   border-bottom: 1px solid #fac917;
   height: 142px;
@@ -9668,8 +9668,10 @@ header {
 .ri-heart-3-line:before {
   content: "\ee0b";
   color: #fff;
+} */
+#cr-main-menu-desk {
+  background-color: #3e3582;
 }
-
 .ri-shopping-cart-line:before {
   content: "\f120";
   color: #fff;
@@ -9689,4 +9691,7 @@ header {
 
 .cr-last-footer p a {
   color: #fac917 !important;
+}
+.error {
+  border: 1px solid red !important;
 }

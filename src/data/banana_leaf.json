@@ -1,0 +1,12 @@
+{
+    "category": "Banana Leaf",
+    "products": [
+      {
+        "name": "Fresh Banana Leaf",
+        "short_description": "Natural packaging material for cooking",
+        "long_description": "Banana leaves are large, flexible, and waterproof. They are commonly used in various cuisines as eco-friendly, disposable plates, or as wraps for cooking food.",
+        "images": ["https://dummyimage.com/300x200", "https://dummyimage.com/300x200"]
+      }
+    ]
+  }
+  

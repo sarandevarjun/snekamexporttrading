@@ -7,16 +7,45 @@ const Contactform = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    // Perform validation
+    const formData = new FormData(form.current);
+    const name = formData.get("name");
+    const email = formData.get("email");
+    const phone = formData.get("phone");
+    const message = formData.get("message");
+
+    if (!name || !email || !message) {
+      // Change border color of empty fields to red
+      if (!name)
+        form.current.querySelector('input[name="name"]').classList.add("error");
+      if (!phone)
+        form.current
+          .querySelector('input[name="phone"]')
+          .classList.add("error");
+      if (!email)
+        form.current
+          .querySelector('input[name="email"]')
+          .classList.add("error");
+      if (!message)
+        form.current
+          .querySelector('textarea[name="message"]')
+          .classList.add("error");
+
+      return; // Don't submit the form if any field is empty
+    }
     emailjs
       .sendForm(
         "service_bdmdapp",
         "template_da6t18n",
         form.current,
-        "kG6djoM8rLVPAUiah"
+        "kG6djoM8rLVPAUiah",
+        form.current
       )
       .then(
         (result) => {
           console.log(result.text, ":: Message Sent Successfully");
+          form.current.reset();
+          window.location.href = "/thankyou";
         },
         (error) => {
           console.log(error.text);

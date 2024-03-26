@@ -1,0 +1,12 @@
+{
+    "category": "Peanut Candy",
+    "products": [
+      {
+        "name": "Peanut Brittle",
+        "short_description": "Crunchy sweet snack made with peanuts",
+        "long_description": "Peanut Brittle is a classic sweet snack made by caramelizing sugar and mixing it with roasted peanuts. It's crunchy, sweet, and often enjoyed as a treat.",
+        "images": ["https://dummyimage.com/300x200", "https://dummyimage.com/300x200"]
+      }
+    ]
+  }
+  
