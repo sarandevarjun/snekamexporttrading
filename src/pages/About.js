@@ -104,8 +104,8 @@ const About = () => {
         </div>
       </section>
       <Productbanner />
-      <Services />
-      <Blog />
+      {/* <Services /> */}
+      {/* <Blog /> */}
     </>
   );
 };
