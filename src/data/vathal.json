@@ -1,8 +1,10 @@
 {
-    "category": "Vathal and Vadagam",
+    
     "products": [
       {
+        "id": 4,
         "name": "Dried Koozh Vadaham",
+        "category": "Vathal and Vadagam",
         "short_description": "Traditional South Indian sun-dried savory snack made from fermented rice and lentil batter.",
         "long_description": "Dried Koozh Vadaham is a popular traditional snack in South India, especially in Tamil Nadu. It is prepared by sun-drying a batter made from rice and lentils, which is fermented for a certain period. Once dried, it can be stored for a long time and fried whenever needed. It is a delicious and crispy accompaniment to rice dishes or enjoyed as a snack on its own.",
         "images": [
@@ -11,6 +13,7 @@
         ]
       },
       {
+        "id": 5,
         "name": "Sundavaththal",
         "short_description": "Sun-dried vegetable slices preserved with spices and salt.",
         "long_description": "Sundavaththal is a traditional method of preserving vegetables in South Indian cuisine. The vegetables are sliced thinly and sun-dried after seasoning them with spices and salt. This process not only extends their shelf life but also intensifies their flavors. Sundavaththal can be rehydrated and used in various dishes like soups, stews, and curries.",
@@ -20,6 +23,7 @@
         ]
       },
       {
+        "id": 6,
         "name": "Mormilagaai",
         "short_description": "Sun-dried green chillies marinated in spices and oil.",
         "long_description": "Mormilagaai is a spicy and tangy condiment made by sun-drying green chillies after marinating them in a mixture of spices, salt, and oil. It is a popular accompaniment in South Indian cuisine, adding heat and flavor to various dishes. Mormilagaai can be enjoyed with rice, curd rice, dosa, or as a side dish for meals.",
@@ -29,6 +33,7 @@
         ]
       },
       {
+        "id": 7,
         "name": "Vendikkai Vaththal",
         "short_description": "Crispy sun-dried okra slices seasoned with spices.",
         "long_description": "Vendikkai Vaththal is a crunchy and flavorful snack made from sun-dried slices of okra. The okra slices are seasoned with spices and salt before being sun-dried, resulting in a deliciously crispy texture. Vendikkai Vaththal can be enjoyed as a standalone snack or served as a side dish with rice and curry.",
@@ -38,6 +43,7 @@
         ]
       },
       {
+        "id": 8,
         "name": "Seeni Avaraikkai",
         "short_description": "Sweet and spicy sun-dried cluster beans infused with caramelized jaggery.",
         "long_description": "Seeni Avaraikkai is a unique sweet and spicy delicacy made from sun-dried cluster beans (avarai) infused with caramelized jaggery and spices. This traditional South Indian snack offers a perfect balance of sweetness and heat, making it an irresistible treat. Seeni Avaraikkai can be enjoyed on its own or served as a side dish with rice and sambar.",
@@ -47,6 +53,7 @@
         ]
       },
       {
+        "id": 9,
         "name": "Kaththiri Vaththal",
         "short_description": "Sun-dried slices of spicy and tangy raw mangoes.",
         "long_description": "Kaththiri Vaththal is a traditional South Indian delicacy made from sun-dried slices of raw mangoes seasoned with spices and salt. The tangy and spicy flavor of the raw mangoes intensifies during the drying process, resulting in a deliciously tart and crunchy snack. Kaththiri Vaththal can be enjoyed on its own or used as a flavoring agent in various dishes.",
@@ -56,6 +63,7 @@
         ]
       },
       {
+        "id": 10,
         "name": "Paavakka Vaththal",
         "short_description": "Bitter gourd slices sun-dried and seasoned with spices.",
         "long_description": "Paavakka Vaththal is a traditional South Indian snack made from sun-dried slices of bitter gourd (paavakka) seasoned with spices and salt. Despite its bitter taste, the drying process enhances its flavor profile, resulting in a crispy and savory snack. Paavakka Vaththal can be enjoyed as a standalone snack or served as a side dish with rice and rasam.",
@@ -65,6 +73,7 @@
         ]
       },
       {
+        "id": 11,
         "name": "Maanga Vaththal",
         "short_description": "Sun-dried mango slices with a tangy and spicy flavor.",
         "long_description": "Maanga Vaththal is a popular South Indian snack made from sun-dried slices of raw mangoes seasoned with spices and salt. The tangy and spicy flavor of the mangoes intensifies during the drying process, resulting in a delightful combination of flavors. Maanga Vaththal can be enjoyed as a standalone snack or used as a tangy addition to salads and chaats.",
@@ -74,6 +83,7 @@
         ]
       },
       {
+        "id": 12,
         "name": "Vengaaya Vadagam",
         "short_description": "Sun-dried onion balls seasoned with spices.",
         "long_description": "Vengaaya Vadagam is a traditional South Indian delicacy made from sun-dried onion balls seasoned with spices and salt. The onions are thinly sliced, mixed with spices, and shaped into small balls before being sun-dried. Once dried, they can be stored for a long time and used to enhance the flavor of various dishes like sambar, rasam, and curries.",

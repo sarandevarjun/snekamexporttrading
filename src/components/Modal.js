@@ -1,6 +1,12 @@
 import React from "react";
 
-const Modal = () => {
+const Modal = ({ productId, products }) => {
+  const selectedProduct = products.find((product) => product.id === productId);
+
+  if (!selectedProduct) {
+    return null; // Render nothing if no product is selected
+  }
+  console.log("selectedProduct::", selectedProduct);
   return (
     <>
       {/* Model */}
@@ -31,14 +37,8 @@ const Modal = () => {
                 </div>
                 <div className="col-md-7 col-sm-12 col-xs-12">
                   <div className="cr-size-and-weight-contain">
-                    <h2 className="heading">
-                      Peach Seeds Of Change Oraganic Quinoa, Brown fruit
-                    </h2>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1900s,
-                    </p>
+                    <h2 className="heading">{selectedProduct.name}</h2>
+                    <p>{selectedProduct.long_description}</p>
                   </div>
                   <div className="cr-size-and-weight">
                     <div className="cr-review-star">
@@ -51,10 +51,10 @@ const Modal = () => {
                       </div>
                       <p>( 75 Review )</p>
                     </div>
-                    <div className="cr-product-price">
+                    {/* <div className="cr-product-price">
                       <span className="new-price">$120.25</span>
                       <span className="old-price">$123.25</span>
-                    </div>
+                    </div> */}
                     <div className="cr-size-weight">
                       <h5>
                         <span>Size</span>/<span>Weight</span> :
@@ -69,7 +69,7 @@ const Modal = () => {
                       </div>
                     </div>
                     <div className="cr-add-card">
-                      <div className="cr-qty-main">
+                      {/* <div className="cr-qty-main">
                         <input
                           type="text"
                           placeholder="."
@@ -84,11 +84,11 @@ const Modal = () => {
                         <button type="button" id="sub_model" className="minus">
                           -
                         </button>
-                      </div>
+                      </div> */}
                       <div className="cr-add-button">
-                        <button type="button" className="cr-button">
-                          Add to cart
-                        </button>
+                        <a className="cr-button" href="/contact">
+                          Contact Us
+                        </a>
                       </div>
                     </div>
                   </div>
