@@ -9695,3 +9695,33 @@ ul.navbar-nav li.nav-item a.nav-link {
 .error {
   border: 1px solid red !important;
 }
+
+.cr-left-side-contain {
+  max-width: 550px;
+  height: 80vh;
+  padding: 30px;
+  background: #3e3582;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+.cr-slider .swiper-wrapper .swiper-slide-active h1 {
+  animation: fadeInUp 2s both 1.5s;
+  color: #fac917 !important;
+}
+.cr-left-side-contain h5 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: "Poppins, sans-serif";
+  font-weight: 700;
+  color: #ccc;
+}
+.cr-left-side-contain p {
+  font-size: 15px;
+  color: #ccc;
+}
+.cr-button {
+  background-color: #000;
+  border-color: #000;
+}
