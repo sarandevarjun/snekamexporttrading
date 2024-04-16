@@ -9725,3 +9725,13 @@ ul.navbar-nav li.nav-item a.nav-link {
   background-color: #000;
   border-color: #000;
 }
+.cr-left-side-contain {
+  max-width: 550px;
+  height: 80vh;
+  padding: 30px;
+  background: #3e3582;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0.7;
+}
