@@ -9735,3 +9735,49 @@ ul.navbar-nav li.nav-item a.nav-link {
   justify-content: center;
   opacity: 0.7;
 }
+.cr-slider .swiper-wrapper .swiper-slide-active h1 {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+.cr-banner h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #2b2b2d;
+}
+.cr-about h4.heading {
+  margin-bottom: 16px;
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+}
+.cr-breadcrumb-image .cr-breadcrumb-title h2 {
+  margin-bottom: 0;
+  font-family: "Roboto Slab", serif;
+  font-size: 19px;
+  line-height: 1;
+  font-weight: bold;
+  color: #fac917;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Slab", serif;
+}
+.cr-footer h4.cr-sub-title {
+  font-family: "Roboto Slab", serif;
+}
+.cr-about-content .elementor-counter {
+  margin-top: 24px;
+  padding: 24px;
+  background-color: #3e3582;
+  border-radius: 5px;
+  border: 1px solid #e9e9e9;
+}
+.cr-about-content .elementor-counter-number {
+  color: #fac917;
+}
+.cr-about-content h4.elementor {
+  color: #ccc;
+}
