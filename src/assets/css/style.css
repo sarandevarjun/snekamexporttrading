@@ -9781,3 +9781,13 @@ ul.navbar-nav li.nav-item a.nav-link {
 .cr-about-content h4.elementor {
   color: #ccc;
 }
+.cr-about-content .elementor-counter-title span {
+  color: #c4c4c4;
+}
+.cr-about-content h4.elementor {
+  font-size: 48px;
+}
+.cr-about-content .elementor-suffix {
+  margin-left: 5px;
+  font-size: 16px;
+}

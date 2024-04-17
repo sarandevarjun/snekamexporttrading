@@ -60,8 +60,8 @@ const About = () => {
                     <div className="row">
                       <div className="col-sm-4 col-12 margin-575">
                         <h4 className="elementor">
-                          <span className="elementor-counter-number">1.2</span>
-                          <span className="elementor-suffix">k</span>
+                          <span className="elementor-counter-number">600</span>
+                          <span className="elementor-suffix">No of</span>
                         </h4>
                         <div className="elementor-counter-title">
                           <span>Vendors</span>
@@ -70,7 +70,7 @@ const About = () => {
                       <div className="col-sm-4 col-12 margin-575">
                         <h4 className="elementor">
                           <span className="elementor-counter-number">410</span>
-                          <span className="elementor-suffix">k</span>
+                          <span className="elementor-suffix">No of</span>
                         </h4>
                         <div className="elementor-counter-title">
                           <span>Customers</span>
@@ -78,7 +78,7 @@ const About = () => {
                       </div>
                       <div className="col-sm-4 col-12 margin-575">
                         <h4 className="elementor">
-                          <span className="elementor-counter-number">4</span>
+                          <span className="elementor-counter-number">25</span>
                           <span className="elementor-suffix">No of</span>
                         </h4>
                         <div className="elementor-counter-title">
