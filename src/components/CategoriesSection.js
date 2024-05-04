@@ -113,13 +113,10 @@ const CategoriesSection = () => {
                       </div>
                       <div className="categories-contain">
                         <div className="categories-text">
-                          <h5>Cake</h5>
+                          <h5>Papad</h5>
                         </div>
                         <div className="categories-button">
-                          <a
-                            href="shop-left-sidebar.html"
-                            className="cr-button"
-                          >
+                          <a href="/products" className="cr-button">
                             shop now
                           </a>
                         </div>
@@ -140,13 +137,10 @@ const CategoriesSection = () => {
                       </div>
                       <div className="categories-contain">
                         <div className="categories-text">
-                          <h5>Milk</h5>
+                          <h5>Papad</h5>
                         </div>
                         <div className="categories-button">
-                          <a
-                            href="shop-left-sidebar.html"
-                            className="cr-button"
-                          >
+                          <a href="/products" className="cr-button">
                             shop now
                           </a>
                         </div>
@@ -176,13 +170,10 @@ const CategoriesSection = () => {
                       </div>
                       <div className="categories-contain">
                         <div className="categories-text">
-                          <h5>Fish Meat</h5>
+                          <h5>Fresh Banana Leaf </h5>
                         </div>
                         <div className="categories-button">
-                          <a
-                            href="shop-left-sidebar.html"
-                            className="cr-button"
-                          >
+                          <a href="/products" className="cr-button">
                             shop now
                           </a>
                         </div>
@@ -203,13 +194,10 @@ const CategoriesSection = () => {
                       </div>
                       <div className="categories-contain">
                         <div className="categories-text">
-                          <h5>Fresh Meat</h5>
+                          <h5>Fresh Banana Leaf </h5>
                         </div>
                         <div className="categories-button">
-                          <a
-                            href="shop-left-sidebar.html"
-                            className="cr-button"
-                          >
+                          <a href="/products" className="cr-button">
                             shop now
                           </a>
                         </div>
@@ -239,13 +227,10 @@ const CategoriesSection = () => {
                       </div>
                       <div className="categories-contain">
                         <div className="categories-text">
-                          <h5>Coriander</h5>
+                          <h5>Vathal</h5>
                         </div>
                         <div className="categories-button">
-                          <a
-                            href="shop-left-sidebar.html"
-                            className="cr-button"
-                          >
+                          <a href="/products" className="cr-button">
                             shop now
                           </a>
                         </div>
@@ -266,13 +251,10 @@ const CategoriesSection = () => {
                       </div>
                       <div className="categories-contain">
                         <div className="categories-text">
-                          <h5>Broccoli</h5>
+                          <h5>Vathal</h5>
                         </div>
                         <div className="categories-button">
-                          <a
-                            href="shop-left-sidebar.html"
-                            className="cr-button"
-                          >
+                          <a href="/products" className="cr-button">
                             shop now
                           </a>
                         </div>
@@ -302,13 +284,10 @@ const CategoriesSection = () => {
                       </div>
                       <div className="categories-contain">
                         <div className="categories-text">
-                          <h5>Apple</h5>
+                          <h5>Peanut</h5>
                         </div>
                         <div className="categories-button">
-                          <a
-                            href="shop-left-sidebar.html"
-                            className="cr-button"
-                          >
+                          <a href="/products" className="cr-button">
                             shop now
                           </a>
                         </div>
@@ -329,13 +308,10 @@ const CategoriesSection = () => {
                       </div>
                       <div className="categories-contain">
                         <div className="categories-text">
-                          <h5>Mango</h5>
+                          <h5>Peanut</h5>
                         </div>
                         <div className="categories-button">
-                          <a
-                            href="shop-left-sidebar.html"
-                            className="cr-button"
-                          >
+                          <a href="/products" className="cr-button">
                             shop now
                           </a>
                         </div>
@@ -368,10 +344,7 @@ const CategoriesSection = () => {
                           <h5>Strawberry</h5>
                         </div>
                         <div className="categories-button">
-                          <a
-                            href="shop-left-sidebar.html"
-                            className="cr-button"
-                          >
+                          <a href="/products" className="cr-button">
                             shop now
                           </a>
                         </div>
@@ -395,10 +368,7 @@ const CategoriesSection = () => {
                           <h5>Strawberry</h5>
                         </div>
                         <div className="categories-button">
-                          <a
-                            href="shop-left-sidebar.html"
-                            className="cr-button"
-                          >
+                          <a href="/products" className="cr-button">
                             shop now
                           </a>
                         </div>
