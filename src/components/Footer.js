@@ -126,7 +126,7 @@ const Footer = () => {
                     </a>
                   </span>
                 </div>
-                <div className="cr-payment">
+                <div className="cr-payment" style={{ display: "none" }}>
                   <div className="cr-insta-slider swiper-container">
                     <div className="swiper-wrapper">
                       <div className="swiper-slide">

@@ -207,7 +207,7 @@ const Header = () => {
                   <img src={LogoImage} alt="logo" className="dark-logo" />
                 </a>
 
-                <div className="cr-right-bar">
+                <div className="cr-right-bar" style={{ display: "none" }}>
                   <ul className="navbar-nav">
                     <li className="nav-item dropdown">
                       <a

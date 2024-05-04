@@ -83,7 +83,7 @@ const CategoriesSection = () => {
                 <li className="nav-item" role="presentation">
                   <a
                     className="center-categories-inner cr-view-more"
-                    href="shop-left-sidebar.html"
+                    href="/products"
                   >
                     View More
                   </a>

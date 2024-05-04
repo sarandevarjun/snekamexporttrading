@@ -8,7 +8,10 @@ const Productbanner = () => {
   return (
     <>
       {/* Product banner */}
-      <section className="section-product-banner padding-b-100">
+      <section
+        className="section-product-banner padding-b-100"
+        style={{ display: "none" }}
+      >
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
