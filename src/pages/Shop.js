@@ -155,7 +155,15 @@ const Shop = () => {
                         </div>
                         <div className="cr-product-details">
                           <div className="cr-brand">
-                            <a href={product.category}>{product.category}</a>
+                            <a
+                              className="model-oraganic-product"
+                              data-bs-toggle="modal"
+                              onClick={() => handleProductClick(product.id)}
+                              href="#quickview"
+                              role="button"
+                            >
+                              {product.category}
+                            </a>
                             {/* Other product details */}
                           </div>
                           <a href="product-left-sidebar.html" className="title">
