@@ -168,7 +168,7 @@ const Whyus = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="accordion-item">
+                  <div className="accordion-item" style={{ display: "none" }}>
                     <h2 className="accordion-header" id="heading-6">
                       <button
                         className="accordion-button collapsed shadow-none"

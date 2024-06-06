@@ -16,7 +16,7 @@ const Slider = () => {
                         <h5>
                           <span>100%</span> Organic Products
                         </h5>
-                        <h1>Welcome To Sneham Export Trading</h1>
+                        <h1>Welcome To Sneham Export Trading!</h1>
                         <p>
                           Sneham export trading is India’s leading export
                           trading company.
