@@ -195,7 +195,7 @@ const Whyus = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="accordion-item">
+                  <div className="accordion-item" style={{ display: "none" }}>
                     <h2 className="accordion-header" id="heading-7">
                       <button
                         className="accordion-button collapsed shadow-none"
@@ -222,7 +222,7 @@ const Whyus = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="accordion-item">
+                  <div className="accordion-item" style={{ display: "none" }}>
                     <h2 className="accordion-header" id="heading-8">
                       <button
                         className="accordion-button collapsed shadow-none"
@@ -249,7 +249,7 @@ const Whyus = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="accordion-item">
+                  <div className="accordion-item" style={{ display: "none" }}>
                     <h2 className="accordion-header" id="heading-9">
                       <button
                         className="accordion-button collapsed shadow-none"

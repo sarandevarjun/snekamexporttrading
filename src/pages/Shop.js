@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Modal from "../components/Modal";
+//import ProductImage1 from "../assets/img/product/peanut-banner.jpg";
 const Shop = () => {
   const [products, setProducts] = useState([]);
   const [selectedProductId, setSelectedProductId] = useState(null);
@@ -8,14 +9,14 @@ const Shop = () => {
     const fetchProducts = async () => {
       try {
         // Import JSON files dynamically
-        const bananaLeafData = await import("../data/banana_leaf.json");
+        //const bananaLeafData = await import("../data/banana_leaf.json");
         const papadData = await import("../data/papad.json");
         const peanutCandyData = await import("../data/peanut_candy.json");
         const vathalData = await import("../data/vathal.json");
 
         // Concatenate products from all JSON files
         const allProducts = [
-          ...bananaLeafData.default.products,
+          //...bananaLeafData.default.products,
           ...papadData.default.products,
           ...peanutCandyData.default.products,
           ...vathalData.default.products,

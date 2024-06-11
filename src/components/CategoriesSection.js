@@ -34,7 +34,11 @@ const CategoriesSection = () => {
                     Papad <span>(15 items)</span>
                   </button>
                 </li>
-                <li className="nav-item" role="presentation">
+                <li
+                  className="nav-item"
+                  role="presentation"
+                  style={{ display: "none" }}
+                >
                   <button
                     className="nav-link center-categories-inner"
                     id="meat-tab"
