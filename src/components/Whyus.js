@@ -1,5 +1,5 @@
 import React from "react";
-import whyUsImg from "../assets/img/about/about-us-banner.jpg";
+import whyUsImg from "../assets/img/product/papad-new-3.jpeg";
 
 const Whyus = () => {
   return (

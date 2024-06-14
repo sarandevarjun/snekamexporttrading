@@ -111,7 +111,7 @@ const Footer = () => {
                     </a>
                   </span>
                   <span>
-                    <a href="javascript:void(0)">
+                    <a href="https://x.com/snehamexports" target="_blank">
                       <i className="ri-twitter-x-line" />
                     </a>
                   </span>
@@ -121,7 +121,10 @@ const Footer = () => {
                     </a>
                   </span>
                   <span>
-                    <a href="javascript:void(0)">
+                    <a
+                      href="https://www.instagram.com/snehamexporttrading/"
+                      target="_blank"
+                    >
                       <i className="ri-instagram-line" />
                     </a>
                   </span>
