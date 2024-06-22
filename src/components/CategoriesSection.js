@@ -3,12 +3,23 @@ import React from "react";
 //Cateogories Image
 import categoryImage1 from "../assets/img/categories/1.jpg";
 import categoryImage2 from "../assets/img/categories/2.jpg";
-import categoryImage3 from "../assets/img/categories/3.jpg";
-import categoryImage4 from "../assets/img/categories/4.jpg";
-import categoryImage5 from "../assets/img/categories/5.jpg";
-import categoryImage6 from "../assets/img/categories/6.jpg";
-import categoryImage7 from "../assets/img/categories/7.jpg";
-import categoryImage8 from "../assets/img/categories/8.jpg";
+//import categoryImage3 from "../assets/img/categories/3.jpg";
+//import categoryImage4 from "../assets/img/categories/4.jpg";
+
+//import categoryImage7 from "../assets/img/product/penut-1.png";
+import categoryImage3 from "../assets/img/product/papad-home-tile-1.jpg";
+import categoryImage4 from "../assets/img/product/papad-home-tile-2.jpg";
+
+//import categoryImage5 from "../assets/img/categories/5.jpg";
+import categoryImage5 from "../assets/img/product/mango-vathal.jpg";
+import categoryImage6 from "../assets/img/product/katharikai-brinjal.jpg";
+
+//import categoryImage6 from "../assets/img/categories/6.jpg";
+//import categoryImage7 from "../assets/img/categories/7.jpg";
+//import categoryImage8 from "../assets/img/categories/8.jpg";
+import categoryImage7 from "../assets/img/product/penut-1.png";
+import categoryImage8 from "../assets/img/product/penut-3.jpg";
+
 import categoryImage9 from "../assets/img/categories/9.jpg";
 import categoryImage10 from "../assets/img/categories/10.jpg";
 

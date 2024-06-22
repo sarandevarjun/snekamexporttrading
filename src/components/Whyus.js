@@ -1,5 +1,5 @@
 import React from "react";
-import whyUsImg from "../assets/img/product/papad-new-3.jpeg";
+import whyUsImg from "../assets/img/product/vision.jpg";
 
 const Whyus = () => {
   return (
@@ -168,7 +168,7 @@ const Whyus = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="accordion-item" style={{ display: "none" }}>
+                  <div className="accordion-item">
                     <h2 className="accordion-header" id="heading-6">
                       <button
                         className="accordion-button collapsed shadow-none"
@@ -195,7 +195,7 @@ const Whyus = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="accordion-item" style={{ display: "none" }}>
+                  <div className="accordion-item">
                     <h2 className="accordion-header" id="heading-7">
                       <button
                         className="accordion-button collapsed shadow-none"

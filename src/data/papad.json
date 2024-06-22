@@ -7,7 +7,9 @@
         "category": "Papad",
         "short_description": "Traditional Indian crispy snack",
         "long_description": "Indian Papad is a thin, crispy, disc-shaped snack typically made from seasoned dough, lentils, or chickpea flour. It's a popular accompaniment to Indian meals.",
-        "images": ["https://snehamexporttrading.com/static/media/3.afbb2d18a416b1c0da40.jpg"]
+        "images": [
+          "assets/product/cumin-papad.jpg"
+        ]
       }
     ]
   }

@@ -17,9 +17,9 @@ const Shop = () => {
         // Concatenate products from all JSON files
         const allProducts = [
           //...bananaLeafData.default.products,
+          ...vathalData.default.products,
           ...papadData.default.products,
           ...peanutCandyData.default.products,
-          ...vathalData.default.products,
         ];
 
         // Set products state
@@ -128,7 +128,7 @@ const Shop = () => {
                   {products.map((product, index) => (
                     <div
                       key={index}
-                      className="col-lg-3 col-6 cr-product-box mb-24"
+                      className="col-lg-4 col-6 cr-product-box mb-24"
                     >
                       <div className="cr-product-card">
                         <div className="cr-product-image">
