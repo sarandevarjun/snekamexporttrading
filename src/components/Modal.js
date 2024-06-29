@@ -6,7 +6,9 @@ const Modal = ({ productId, products }) => {
   if (!selectedProduct) {
     return null; // Render nothing if no product is selected
   }
-  console.log("selectedProduct::", selectedProduct);
+  //console.log("selectedProduct::", selectedProduct);
+  //console.log("selectedProduct::Here::", selectedProduct);
+
   return (
     <>
       {/* Model */}
@@ -29,7 +31,7 @@ const Modal = ({ productId, products }) => {
                 <div className="col-md-5 col-sm-12 col-xs-12">
                   <div className="zoom-image-hover modal-border-image">
                     <img
-                      src="../../assets/img/product/tab-1.jpg"
+                      src={selectedProduct.images}
                       alt="product-tab-2"
                       className="product-image"
                     />
