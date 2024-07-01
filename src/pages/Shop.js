@@ -167,7 +167,12 @@ const Shop = () => {
                             </a>
                             {/* Other product details */}
                           </div>
-                          <a href="product-left-sidebar.html" className="title">
+                          <a
+                            className="model-oraganic-product title"
+                            data-bs-toggle="modal"
+                            onClick={() => handleProductClick(product.id)}
+                            href="#quickview"
+                          >
                             {product.name}
                           </a>
                           <p className="text">{product.short_description}</p>
